@@ -1,0 +1,68 @@
+/* ===========================
+   Globala inställningar
+   =========================== */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  /* Bakgrund och text */
+  background-color: #ffe1eb; /* ljusrosa */
+  color: #333; /* svart/brödtext */
+}
+
+/* ===========================
+   Rubriker
+   =========================== */
+h1, h2, h3, h4, h5, h6 {
+  color: #d63384; /* mörkrosa rubriker */
+  margin-top: 0;
+}
+
+/* ===========================
+   Länkar
+   =========================== */
+a {
+  font-weight: 500;
+  color: #ff69b4; /* stark rosa */
+  text-decoration: none;
+}
+a:hover {
+  color: #c71585; /* mörkare rosa vid hover */
+  text-decoration: underline;
+}
+
+/* ===========================
+   Knappar
+   =========================== */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ff69b4; /* rosa */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+button:hover {
+  background-color: #d63384; /* mörkare rosa */
+}
+
+/* ===========================
+   Global container för appen
+   =========================== */
+#root > div {
+  max-width: 1200px; /* begränsar bredden på stora skärmar */
+  margin: 0 auto; /* centrerar innehållet horisontellt */
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .row1 {
+    grid-template-columns: 1fr; /* på små skärmar blir det en kolumn per rad */
+  }
+}
