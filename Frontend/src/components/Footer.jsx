@@ -1,6 +1,5 @@
 import React from 'react';
-import HiQLogo from '../assets/HiQ-pink.png'; // Justera sökvägen om det behövs
-
+import HiQLogo from '../assets/HiQ-pink.png'; 
 function Footer() {
   const footerStyle = {
     backgroundColor: '#000000ff',
@@ -27,7 +26,6 @@ function Footer() {
 
   return (
     <footer style={footerStyle}>
-      {/* HiQ-logo som länk */}
       <a href="https://www.hiq.se" target="_blank" rel="noopener noreferrer">
         <img src={HiQLogo} alt="HiQ Logo" style={logoStyle} />
       </a>

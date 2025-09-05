@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header />
       <div style={{ padding: '10px', minHeight: 'calc(100vh - 120px)' }}>
-        {/* minHeight räknar bort header + footer (justera efter höjd) */}
+        {/* minHeight räknar bort header + footer */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/create" element={<CreateForm />} />

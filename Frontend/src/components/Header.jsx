@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HiQLogo from '../assets/HiQ-black.png'; // Se till att sökvägen stämmer
+import HiQLogo from '../assets/HiQ-black.png'; 
 
 function Header() {
   const headerStyle = {
@@ -23,7 +23,6 @@ function Header() {
 
   return (
     <header style={headerStyle}>
-      {/* HiQ-logo som länk */}
       <a href="https://www.hiq.se" target="_blank" rel="noopener noreferrer" style={{ marginRight: '20px' }}>
         <img src={HiQLogo} alt="HiQ Logo" style={{ width: '80px', cursor: 'pointer' }} />
       </a>

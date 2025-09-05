@@ -137,7 +137,7 @@ function ViewForm() {
       onClick={handleSave}
       style={{
         padding: '10px 20px',
-        backgroundColor: '#ff69b4', // ändrat till rosa
+        backgroundColor: '#ff69b4', 
         color: 'white',
         border: 'none',
         borderRadius: '5px',
@@ -153,7 +153,7 @@ function ViewForm() {
     onClick={handleDelete}
     style={{
       padding: '10px 20px',
-      backgroundColor: '#ff69b4', // ändrat till rosa
+      backgroundColor: '#ff69b4',
       color: 'white',
       border: 'none',
       borderRadius: '5px',
