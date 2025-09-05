@@ -1,10 +1,10 @@
 import React from 'react';
-import HiQLogo from '../assets/HiQ-black.png'; // Justera sökvägen om det behövs
+import HiQLogo from '../assets/HiQ-pink.png'; // Justera sökvägen om det behövs
 
 function Footer() {
   const footerStyle = {
-    backgroundColor: '#fff',
-    color: '#000',
+    backgroundColor: '#000000ff',
+    color: '#ffffffff',
     padding: '20px',
     display: 'flex',
     flexDirection: 'column',
