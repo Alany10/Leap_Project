@@ -14,7 +14,7 @@ const fieldLabels = {
   joy: 'Glädje',
   innovation: 'Innovation',
   satisfactionConsult: 'Nöjdhet Konsult',
-  satisfactionCompany: 'Nöjdhet Företag',
+  satisfactionCompany: 'Nöjdhet HiQ',
   improvements: 'Förbättringar',
   valueAssessmentPositive: 'Värdeomdömen Positivt',
   valueAssessmentNegative: 'Värdeomdömen Negativt',
